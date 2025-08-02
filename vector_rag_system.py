@@ -10,9 +10,9 @@ from datetime import datetime
 
 from openai import OpenAI
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.document_loaders import PyMuPDFLoader
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import Qdrant
+from langchain_community.document_loaders import PyMuPDFLoader
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import Qdrant
 from langchain.schema import Document
 from langchain.retrievers import ContextualCompressionRetriever
 from langchain.retrievers.document_compressors import LLMChainExtractor
