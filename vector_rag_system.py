@@ -16,7 +16,7 @@ from langchain.vectorstores import Qdrant
 from langchain.schema import Document
 from langchain.retrievers import ContextualCompressionRetriever
 from langchain.retrievers.document_compressors import LLMChainExtractor
-from langchain.llms import OpenAI as LangChainOpenAI
+from langchain_community.llms import OpenAI as LangChainOpenAI
 from qdrant_client import QdrantClient
 
 from dotenv import load_dotenv
